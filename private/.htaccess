@@ -1,0 +1,8 @@
+# Забороняємо перегляд списку файлів
+Options -Indexes
+
+# Налаштування авторизації
+AuthType Basic
+AuthName "Restricted Area for SOC Specialists"
+AuthUserFile /Users/yanochka/.htpasswd
+Require valid-user
